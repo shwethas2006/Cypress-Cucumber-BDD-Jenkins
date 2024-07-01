@@ -1,0 +1,29 @@
+{
+  "name": "cypress-cucumberbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepdefnitions": false,
+    "step_definitions": "cypress/e2e/cucumber/stepDefinitions/*",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/test-results/cucumber-Json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

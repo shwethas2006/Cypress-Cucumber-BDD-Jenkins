@@ -1,0 +1,6 @@
+{
+    "validEmail" :"shwetha.s25@gmail.com",
+    "validPassword":"cypress123$",
+    "invalidEmail" :"shwetha.s25@gmail.com",
+    "invalidPassword":"cypress.json"
+}
